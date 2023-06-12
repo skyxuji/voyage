@@ -15,11 +15,17 @@ block_words = [
     "n1gga",
     "n1ggers",
     "motherfucker",
-    "gayass"    
+    "gayass",
     "niqqa",
     "nig",
     "niqer",
+    "mothertr",
+    "mother fcker",
+    "n!gga",
+    "nyghas",
+    
 ]
+
 
 
 @client.event
