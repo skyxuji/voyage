@@ -10,11 +10,15 @@ block_words = [
     "migger",
     "miga",
     "neyger",
-    "miga",
     "retarded",
     "mf",
+    "n1gga",
+    "n1ggers",
     "motherfucker",
-    "gayass",   
+    "gayass"    
+    "niqqa",
+    "nig",
+    "niqer",
 ]
 
 
