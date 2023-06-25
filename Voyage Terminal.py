@@ -12,7 +12,7 @@ block_words = [
     "neyger",
     "retarded",
     "mf",
-    "n1gga",
+    "n1gga",    
     "n1ggers",
     "motherfucker",
     "gayass",
@@ -35,18 +35,16 @@ async def on_ready():
 
 @client.event
 async def on_message(msg):
-
     if msg.author != client.user:
+        content_lower = msg.content.lower()
+        author_roles = set(role.name for role in msg.author.roles)
 
         for text in block_words:
-
-            if "Moderator" not in str(msg.author.roles) and text in str(
-                    msg.content.lower()):
+            if "Admin" not in author_roles and text in content_lower:
                 await msg.delete()
                 return
 
         print("Not Deleting...")
-
 
 client.run(os.getenv('TOKEN'))
 
