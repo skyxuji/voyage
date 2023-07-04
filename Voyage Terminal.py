@@ -4,26 +4,7 @@ import os
 client = discord.Client()
 
 block_words = [
-    "retard",
-    "nigga",
-    "nigger",
-    "migger",
-    "miga",
-    "neyger",
-    "retarded",
-    "mf",
-    "n1gga",    
-    "n1ggers",
-    "motherfucker",
-    "gayass",
-    "niqqa",
-    "nig",
-    "niqer",
-    "mothertr",
-    "mother fcker",
-    "n!gga",
-    "nyghas",
-    
+    #Format Example "Blocked Word", 
 ]
 
 
@@ -46,5 +27,7 @@ async def on_message(msg):
 
         print("Not Deleting...")
 
+
 client.run(os.getenv('TOKEN'))
+#For Replit Secrets Only
 
