@@ -27,7 +27,5 @@ async def on_message(msg):
 
         print("Not Deleting...")
 
-
-client.run(os.getenv('TOKEN'))
-#For Replit Secrets Only
+client.run("Bot Token")
 
