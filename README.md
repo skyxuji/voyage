@@ -5,6 +5,4 @@ About
   - Built with Python Version 3.11
     
                                                     
-Below is the demonstration of Voyage's main function in the server 
 
-https://github.com/skyxuji/voyage/assets/109955256/1a43f348-e5b6-4ba7-8c11-8e38892597b5
