@@ -1,12 +1,14 @@
 import discord
 import os
 
-client = discord.Client()
+intents = discord.Intents.default()
+intents.members = True
+client = discord.Client(intents=intents)
+
 
 block_words = [
-    #Format Example "Blocked Word", 
+    #Format: "Blocked Word",
 ]
-
 
 
 @client.event
@@ -26,6 +28,7 @@ async def on_message(msg):
                 return
 
         print("Not Deleting...")
+
 
 client.run("Bot Token")
 
